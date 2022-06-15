@@ -36,6 +36,19 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+  
+  background-image: url(logo.png);
+  /* filter: drop-shadow(3px 3px 3px black); */
+  border-radius: 64px;
+  box-shadow: 3px 3px 3px black;
 }
 
 /* Your CSS below here */
+article {
+  background: url(top-image.png) no-repeat left top;
+  background: linear-gradient(to bottom, rgb(49, 158, 201, 0.5), rgb(255, 255, 255, 0), rgb(47, 152, 170, 0.5)),
+                    url(top-image.png) no-repeat left top,
+                    url(bottom-image.png) no-repeat bottom;
+  background-color: white;
+  border-top: 1mm solid rgb(22, 83, 107)
+}
